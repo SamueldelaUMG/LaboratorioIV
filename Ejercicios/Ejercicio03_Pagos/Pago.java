@@ -1,0 +1,21 @@
+package Ejercicios.Ejercicio03_Pagos;
+
+public abstract class Pago {
+    private double monto;
+
+
+    public Pago(double monto){
+        this.monto=monto;
+
+    }
+
+    public double getMonto(){
+        return monto;
+    }
+    public void setMonto(double monto){
+        this.monto=monto;
+    }
+    
+    public abstract void procesarPago();
+    
+}
