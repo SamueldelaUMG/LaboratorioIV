@@ -1,0 +1,11 @@
+@startuml
+actor Usuario
+participant Sistema
+database "Base de Datos" as BD
+
+Usuario -> Sistema : Solicitar información del estudiante
+Sistema -> BD : Buscar estudiante
+BD --> Sistema : Enviar los datos del estudiante
+Sistema --> Usuario: Mostrar Inofrmacion
+
+@enduml

@@ -1,0 +1,25 @@
+@startuml
+class Estudiante {
+    - nombre: String 
+    - carnet : String 
+    - edad : int
+
+    +mostrarDatos()
+}
+class Curso{
+    - nombreCurso : String
+    - codigo : String
+
+    +agregarEstudiante()
+    +mostrarCurso()
+}
+class Profesor{
+    - nombre: String 
+    - especialidad : String 
+
+    +impartirCurso()
+
+}
+Profesor "1" -->"*" Curso : imparte
+Curso "*" --> "*" Estudiante : tiene
+@enduml
