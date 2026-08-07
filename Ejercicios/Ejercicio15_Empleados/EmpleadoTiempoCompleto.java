@@ -1,4 +1,4 @@
-package Ejercicios.Ejercio15_Empleados;
+package Ejercicios.Ejercicio15_Empleados;
 
 public class EmpleadoTiempoCompleto extends Empleado {
     private double salario;

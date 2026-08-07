@@ -1,4 +1,4 @@
-package Ejercicios.Ejercio15_Empleados;
+package Ejercicios.Ejercicio15_Empleados;
 
 public class EmpleadoPorHoras extends Empleado{
 

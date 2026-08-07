@@ -1,4 +1,4 @@
-package Ejercicios.Ejercio15_Empleados;
+package Ejercicios.Ejercicio15_Empleados;
 
 public abstract class Empleado {
     private String nombre;
